@@ -5,6 +5,8 @@
     <title>My GitHub Page</title>
 </head>
 <body>
-    {{ content }}
+    {% capture my_include %}{% include 1.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+
 </body>
 </html>
