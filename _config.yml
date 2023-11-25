@@ -1,1 +1,22 @@
-theme: minima
+# 网站的基本设置
+title: My Awesome Site              # 你的网站标题
+description: >                     # 你的网站描述
+  This is my awesome blog about...
+baseurl: ""                         # 项目的基路径，如果你的网站托管在域的子路径下，则需要设置这个值
+url: "https://ch1ldking.github.io/"        # 你的网站域名
+
+# 构建设置
+markdown: kramdown                  # Markdown 解析器（kramdown 是默认选项）
+theme: minima                       # Jekyll 主题，如果你使用 GitHub Pages 的主题选择器，这里应该是你选择的主题
+
+# 插件（如果你使用 GitHub Pages，则只能使用支持的插件）
+plugins:
+  - jekyll-feed                     # 生成 Atom (RSS-like) 订阅源
+  - jekyll-seo-tag                  # 添加必要的 SEO 相关标签
+
+
+
+
+
+# Google Analytics（如果你想添加 Google Analytics）
+
